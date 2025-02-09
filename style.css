@@ -37,6 +37,12 @@ h1{
 li{
   list-style-type: none;
 }
+a{
+    color: var(--accent1);
+}
+a:visited{
+    color: var(--accent2);
+}
 :root{
     --base: #1c2833 ;
 	  --text: #cdd6f4;

@@ -28,22 +28,29 @@
             <!--third-->
             <section>
                 <h1>outward</h1>
-                <p>this site is a forever work in progress as i am incredibly inconsistent. dont be suprised if one time you see this place and its unrecognizable.</p>
-                <h2>contact</h2>
-                <ul>
-                    <li><a href="https://discord.com/users/1211389543505207398">discord</a></li>
-                    <li><a href="https://steamcommunity.com/id/perilouh">steam</a></li>
-                    <li><a href="mailto:perill6@proton.me">email</a> (i check this never btw this is for site purposes only)</li>
-                    <li>all of my other socials are personal, these are the only three ill accept dms from :)</li>
-                </ul>
-                <h2>buttons :D</h2>
-                <p><span class="sub">dm me if you want me to add you, these are the only ones i have saved :p</span></p>
-                <a href="https://jek.wtf/"><img src="/%2Fimgs%2Fbuttons/jek.webp" alt="jek" title="jek.wtf"></a> <a href="https://rentry.co/penisfaangs/"><img src="/%2Fimgs%2Fbuttons/penibutton.gif" alt="peni" title="rentry.co/penisfaangs"></a>
-                <h2>ADS</h2>
-                <center>
-                    <iframe width="180" height="180" style="border:none" src="https://rice.nekoweb.org/nekolink.html"></iframe> <iframe width="180" height="180" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
-                    <iframe src="https://john.citrons.xyz/embed?ref=perill6.nekoweb.org" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>
-                </center>
+                <p>this site is a forever work in progress as i am incredibly inconsistent. dont be suprised if one time you see this place and its unrecognizable. this section takes up too much fucking space sorry lmao</p>
+                <details open="">
+                    <summary>contact</summary>
+                    <ul>
+                        <li><a href="https://discord.com/users/1211389543505207398">discord</a></li>
+                        <li><a href="https://steamcommunity.com/id/perilouh">steam</a></li>
+                        <li><a href="mailto:perill6@proton.me">email</a> (i check this never btw this is for site purposes only)</li>
+                    </ul>
+                    <p>all of my other socials are personal, these are the only three ill accept dms from :)</p>
+                </details>
+                <details open="">
+                    <summary>buttons</summary>
+                    <p><span class="sub">im too scared to add people but i like em. hmu if you want on here :3c</span></p>
+                    <a href="https://jek.wtf/"><img src="/%2Fimgs%2Fbuttons/jek.webp" alt="jek" title="jek.wtf"></a> <a href="https://rentry.co/penisfaangs/"><img src="/%2Fimgs%2Fbuttons/penibutton.gif" alt="peni" title="rentry.co/penisfaangs"></a>
+                </details>
+                <details open="">
+                    <summary>webrings</summary>
+                    <div style="text-align:center">
+                        <a href="https://baccyflap.com/noai/?prv&s=ouh" target="_top">« prev</a> |
+                        <a href="https://baccyflap.com/noai" target="_blank">no ai webring</a>
+                        <a style="font-size:60%" href="https://baccyflap.com/noai/?rnd" target="_top">(random)</a> |
+                        <a href="https://baccyflap.com/noai/?nxt&s=ouh" target="_top">next »</a>
+                    </div> 
                 <h2>uh this shit</h2>
                 <a id="commitLink" href="#" target="_blank" style="text-decoration: none;">
                     <div style="display: flex; text-align: center; align-items: center; justify-content: center; padding: 10px 0 10px 0;">
@@ -52,22 +59,12 @@
                             </p>
                             <p id="commitLatest">
                                 <br>
-                                fetching wait a sec (or it broke LOL)
+                                fetching or broken LOL
                             </p>
                         </div>
                     </div>
                 </a>
-                <script>
-                    fetch('https://api.github.com/repos/perilouh/perilovh/commits?per_page=1')
-                        .then(res => res.json())
-                        .then(res => {
-                            let sha = res[0].sha;
-                            let authorDate = new Date(res[0].commit.author.date);
-                            document.getElementById('commitLatest').innerText = res[0].commit.message;
-                            document.getElementById('shortHash').innerText = "latest commit:" + sha.substring(0, 7) + " on " + authorDate.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' });
-                            document.getElementById('commitLink').href = "https://github.com/perilouh/perilovh/commit/" + sha
-                        });
-                  </script>
+                <script type="text/javascript" src="ghscript.js"></script>
                   <!--script and html ripped from moosyu.com, thank you-->
             </section>
         </div>

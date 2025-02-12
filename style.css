@@ -28,7 +28,7 @@ section {
   color: var(--sub);
   font-size: smaller;
 }
-h1, h2, h3, p, li, ul{
+h1, h2, h3, p, li, ul, summary, details{
   color: var(--text);
 }
 h1{

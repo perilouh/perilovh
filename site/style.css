@@ -1,0 +1,67 @@
+/* hiya, shits ordered like this:
+* main containers
+* text shit (font&title stuff)
+* mobile accessible tings
+* root
+* anything else
+thanks for taking a look :3 peace and love bitches!!!!! */
+
+/*containers*/
+body{
+  background-color: var(--base);
+  color: var(--text);
+  font-family: 'Fira Code', monospace; 
+}
+.container{
+  background-color: var(--base);
+  max-width: 800px;
+  max-height: 100%;
+}
+aside{
+  float: left;
+  max-width: 200px;
+  height: 100%;
+}
+main{
+  float: left;
+  margin-right: 10px;
+  max-width: 500px;
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+}
+
+/* text shit */
+
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+a:hover{
+  background-color: var(--text);
+  color: var(--base);
+  text-decoration: none;
+}
+a{color: var(--text); text-decoration: none;}
+.title{
+  background-color: var(--text);
+  color: var(--base);
+  width: 100%;
+}
+/* mobile */
+
+/* root */
+
+:root{
+  --base: #1c1624; 
+  --text: #cdd6f4;
+}
+/* extra */
+
+.webrings{
+  align-items: left;
+}
+hr{
+  border-width: 1px;
+  color: var(--text);
+}
+.main::-webkit-scrollbar {
+  width: 0; /* remove scrollbar space */
+  background: transparent; /* to make scrollbar invisible */}

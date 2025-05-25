@@ -75,7 +75,10 @@ a{color: var(--text); text-decoration: none;}
   color: #1c1624;
 }
 
-/* mobile */
+/* fit content */
+.fit{
+  width: 450px;
+}
 
 /* root */
 li::marker {

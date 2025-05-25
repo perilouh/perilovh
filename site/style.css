@@ -45,6 +45,36 @@ a{color: var(--text); text-decoration: none;}
   color: var(--base);
   width: 100%;
 }
+
+/*** Works on common browsers ***/
+::selection {
+  background-color: #cdd6f4;
+  color: #1c1624;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+  background-color: #cdd6f4;
+  color: #1c1624;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+  background-color: #cdd6f4;
+  color: #1c1624;
+}
+
+::-ms-selection {
+  background-color: #cdd6f4;
+  color: #1c1624;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+  background-color: #cdd6f4;
+  color: #1c1624;
+}
+
 /* mobile */
 
 /* root */

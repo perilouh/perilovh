@@ -48,56 +48,58 @@ a{color: var(--text); text-decoration: none;}
 
 /*** Works on common browsers ***/
 ::selection {
-  background-color: #cdd6f4;
-  color: #1c1624;
+  background-color: var(--text);
+  color: var(--base);
 }
 
 /*** Mozilla based browsers ***/
 ::-moz-selection {
-  background-color: #cdd6f4;
-  color: #1c1624;
+  background-color: var(--text);
+  color: var(--base);
 }
 
 /***For Other Browsers ***/
 ::-o-selection {
-  background-color: #cdd6f4;
-  color: #1c1624;
+  background-color: var(--text);
+  color: var(--base);
 }
 
 ::-ms-selection {
-  background-color: #cdd6f4;
-  color: #1c1624;
+  background-color: var(--text);
+  color: var(--base);
 }
 
 /*** For Webkit ***/
 ::-webkit-selection {
-  background-color: #cdd6f4;
-  color: #1c1624;
+  background-color: var(--text);
+  color: var(--base);
 }
 
 /* fit content */
 .fit{
-  width: 450px;
+  width: 100%;
 }
 
 /* root */
 li::marker {
-  content: "> ";
+  content: ">";
   font-size: 1.1em;
 }
 :root{
-  --base: #1c1624; 
-  --text: #cdd6f4;
+  --base: #201c2c; 
+  --text: #D8E2F8;
+  --one: #a6e3a1;
+  --two: #f9e2af;
 }
 /* extra */
 .teto{
   height: 300px;
   position: absolute;
-  
 }
 .webrings{
   align-items: left;
 }
+
 hr{
   border-width: 1px;
   color: var(--text);

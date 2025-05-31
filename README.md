@@ -1,4 +1,2 @@
-## peril.ovh :3
-hosted on nekoweb (for now, would like to host myself) and (soon) github pages yay wooo
-
-under partial-hiatus until i get my domain :P
+it the. webiste.
+heh i dont wanna do anything cool wwith this yet but once i get a domain its so fucking over for you >:) (superawesomekitty.net soon)

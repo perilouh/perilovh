@@ -35,7 +35,7 @@ main{
 
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 a:hover{
-  background-color: var(--text);
+  background-color: var(--one);
   color: var(--base);
   text-decoration: none;
 }
@@ -86,23 +86,17 @@ li::marker {
   font-size: 1.1em;
 }
 :root{
-  --base: #201c2c; 
+  --base: #100E15; 
   --text: #D8E2F8;
-  --one: #a6e3a1;
-  --two: #f9e2af;
+  --one: #00FF00;
+  --two: #8400ff;
 }
-/* extra */
 .teto{
   height: 300px;
   position: absolute;
 }
 .webrings{
   align-items: left;
-}
-
-hr{
-  border-width: 1px;
-  color: var(--text);
 }
 .main::-webkit-scrollbar {
   width: 0; /* remove scrollbar space */

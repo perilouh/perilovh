@@ -10,30 +10,43 @@
              }, 400);
          }(""));
   </script>
-      <meta property="og:url" content="https://perill6.nekoweb.org/">
-      <link rel="stylesheet" href="https://perill6.nekoweb.org/style.css">
+      <meta property="og:url" content="https://kittying.one/">
+      <link rel="stylesheet" href="https://kittying.one/style.css">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!--funny embed things-->
-      <meta property="og:title" content="peril.ovh :3">
-      <meta property="og:description" content="my home on the web; archive of my works, from web design to music to character work.">
+      <meta property="og:title" content="kittying.one">
+      <meta property="og:description" content="my home on the web!! dumping grounds for anything id want online">
       <meta property="og:type" content="website">
-      <meta property="og:image" content="https://perill6.nekoweb.org/imgs/catcat.png">
       <!--webring-->
       <link rel="stylesheet" href="https://ultrakill.nekoweb.org/onionring.css">
   </head>
       <body>
       <div class="container">
         <main>
-          <a href="/"><h2 class="title"> > peril.ovh</h2></a>
-          serves as my online expression hub for the things i do on (and sometimes) off the interwebs, for any of its citizens to see! 
+          <a href="/"><h2 class="title"> > kittying.one</h2></a>
+          this is literally just my link-in-bio . find my pages or whatever.
           <br>
-          while mobile friendly-ness and accessibility are things that i take into account during designing, i have to say that some pages may not be fully viewable to things like screenreaders or even your phone. i apologize in advance for any issues that may arrise from this!
+          most of this page should be mobile- and screenreader-friendly, i can't guarentee every page will be. all images have some kind of alt text and the index/links/about pages all should be fine on most devices.
+          <br>
+          <br>
+          peril's last scrobble was <span id="song"></span>, according to <a href="https://last.fm/user/perilouh">last.fm</a>!!
+          <script type="text/javascript">
+            let user = 'perilouh';
+            let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+            let song = document.querySelector('#song');
+            fetch(url)
+               .then(function (response) {
+                   return response.json()
+               }).then(function (json) {
+                   song.innerHTML = json['track']['name'] + ' - ' + json['track']['artist']['#text'];
+                });
+    </script>
           <br>
           <br>
           visit my friends!
           <br>
-          <a href="https://jeksnek.net/"><img src="/imgs/buttons/jek.webp" alt="purple button with white text reading 'jek'" title="jek!!"></a> <a href="https://nordic.nekoweb.org/"><img src="/imgs/buttons/CITRUS.gif/" alt="a dark-blue button with flashing text reading 'aconite nekoweb'. theres a small computer on the left." title="anemone!!"></a> <img src="/imgs/buttons/perill6.png/" alt="a button with a catfish on it. text in the bottom right reads 'perill6'" title="feel free to add my button anywhere!!">
+          <a href="https://jeksnek.net/"><img src="/imgs/buttons/jek.webp" alt="purple button with black text reading 'jek'. theres a colon three in the corner" title="jek!!"></a> <a href="https://nordic.nekoweb.org/"><img src="/imgs/buttons/CITRUS.gif/" alt="a dark-blue button with flashing text reading 'aconite nekoweb'. theres a small computer on the left." title="anemone!!"></a> <img src="/imgs/buttons/button2.png/" alt="a white button with gradient red-to-blue text reading 'kittying.one'. theres a colon three in the top left." title="feel free to add my button anywhere!!">
           <br>
           <br>
           <a href="/about.html">about</a> | <a href="/contact.html">contact</a> | <a href="/blog.html">blog directory</a>  
@@ -47,6 +60,7 @@
                 <a style="font-size:60%" href="https://baccyflap.com/noai/?rnd" target="_top">(random)</a> |
                 <a href="https://baccyflap.com/noai/?nxt&s=ouh" target="_top">next »</a>
             </div> 
+            <br>
             <iframe id="bolognese-webring" style="width: 100%; height: 3rem; border: none;" src="https://spagwhetti.github.io/embed.html?name=per"></iframe> 
          </div>
          <br>

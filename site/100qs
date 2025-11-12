@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title></title>
+              <script type="text/javascript">
+      (function titleScroller(text) {
+             document.title = text;
+             setTimeout(function () {
+                 titleScroller(text.substr(1) + text.substr(0, 1));
+             }, 400);
+         }("00qs 100qs 100qs 1"));
+  </script>
+  <link rel="stylesheet" href="about.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <!--hi ^_^ my code is free to use because i ripped probably half this site anyways. i just ask you credit back or add my 88x31. peril out! have fun staring at my code-->
+        </head>
+        <body>
+            <div id="container">
+                <main>
+                    i got this <a href="https://mouseling.net/100webmaster.txt">here</a> ok bye (made nov 11 2025)
+                    <dl>
+                        <dt>1. Please introduce yourself.</dt>
+                        <dd>hi im peril!!! i draw and slam my hands on the computer</dd>
+                        <dt>2. How long have you been making websites?</dt>
+                        <dd>since december 2023! ive been pretty on and off, usually working in spurts, but this is technically my second site ^_^</dd>
+                        <dt>3. And what got you into the hobby?</dt>
+                        <dd>a mix of learning it for toyhouse profile customization and an old friend</dd>
+                        <dt>4. What kind of website are you most interested in?</dt>
+                        <dd>something with a visual appeal! your htmlcss can be shit but if you have cool graphics ill be interested lol</dd>
+                        <dt>5. What's your workflow? Do you plan your websites out thoroughly or do you come up with the design as you go along?</dt>
+                        <dd>i will get a general idea for a page and run with it. usually theres basis in the inital design of the rest of the site.</dd>
+                        <dt>6. Please link to your biggest inspirations.</dt>
+                        <dd><a href="https://homestuck.com/">homestuck</a> (general), <a href="https://jamies.page">jamie paige</a> (general), neon genesis evangelion, a lot of misc artists and musicians and shows and shit</dd>
+                        <dt>7. What's your favourite part about making websites?</dt>
+                        <dd>its really simple! theres part of me that wishes my website was more elaborate but im happy with its current state :)</dd>
+                        <dt>8. And the thing you struggle with the most?</dt>
+                        <dd>writing pages! i can easily come up with an idea for a new page and filling it with images and whatnot but writing things out is hard :[</dd>
+                        <dt>9. Do you keep the same layout on all of your pages? Or do you use different ones?</dt>
+                        <dd>i try to have different layouts but i have a total of 3 pages with content. once i get more done ill probably make more layouts</dd>
+                        <dt>10. How confident are you with CSS?</dt>
+                        <dd>decently for stuff i know, i tend to keep a page up with w3schools incase though</dd>
+                        <dt>11. Do you know how to correctly use &lt;dl&gt;?</dt>
+                        <dd>nope LOL this is my first time using it</dd>
+                        <dt>12. What is your favourite HTML element?</dt>
+                        <dd>linebreak or marquee</dd>
+                        <dt>13. If you're making a new web page from scratch, what is the first thing you do?</dt>
+                        <dd>html head and general formatting shit</dd>
+                        <dt>14. Do you know JavaScript?</dt>
+                        <dd>a little bit... enough to edit off of something pre-existing, but not enough to work from scratch. all of the stuff that uses js on my site is edited probably!</dd>
+                        <dt>15. How about PHP?</dt>
+                        <dd>nope LOL</dd>
+                        <dt>16. Does your website have a theme that you stick to?</dt>
+                        <dd>yes! the dark purple/white/blue/red is themed after simi (my personas) main colors :)</dd>
+                        <dt>17. Are you more focused on content or design?</dt>
+                        <dd>content!</dd>
+                        <dt>18. Do you own a domain name? If not, would you ever want to?</dt>
+                        <dd>KITTYING DOT ONE BAYBEE. ill get another for a more formal portfolio eventually</dd>
+                        <dt>19. What do you think of nostalgia-focused or "retro" websites?</dt>
+                        <dd>pretty cool, idk</dd>
+                        <dt>20. Is your HTML valid? Do you even check?</dt>
+                        <dd>prolly. if theres an error i try to fix it most times</dd>
+                        <dt>21. What are your opinion on buttons and banners?</dt>
+                        <dd>id use more buttons if i could! i actually encourage my non-website-having friends to make buttons anyway cuz i feel weird having 3 friends who have no association next to eachother haha</dd>
+                        <dt>22. What do you think of button walls in particular?</dt>
+                        <dd>awesome</dd>
+                        <dt>23. If you started over again, would you make something similar or completely different?</dt>
+                        <dd>different! id make something more visually interesting with a specific theme</dd>
+                        <dt>24. Are you envious of other people's websites?</dt>
+                        <dd>not really,, i think theyre really cool but envy isnt how i describe it</dd>
+                        <dt>25. What text editor do you use?</dt>
+                        <dd>visual studio code</dd>
+                        <dt>26. Why do you use that one?</dt>
+                        <dd>i was a neocities editor soilder but its just annoying lol</dd>
+                        <dt>27. Do you host your image files on your web server, or on another host?</dt>
+                        <dd>only thing not hosted on my site is the album covers thing on the about page which i plan on hosting on here eventually</dd>
+                        <dt>28. This might not be relevant to you, but what's your opinion on the Neocities vs. Nekoweb debate?</dt>
+                        <dd>nekoweb has a better collected community and i like that. also last i knew neocities owner is an ai bro</dd>
+                        <dt>29. How much server space would you estimate your main website takes up?</dt>
+                        <dd>like ~25mb</dd>
+                        <dt>30. Do you keep local backups of your files?</dt>
+                        <dd>yep</dd>
+                        <dt>31. Do you prefer simple or highly visual websites?</dt>
+                        <dd>highly visual as long as i can read shit</dd>
+                        <dt>32. Do you stick to certain colours? Do you do that on purpose, or is it your subconscious?</dt>
+                        <dd>answered this basically already</dd>
+                        <dt>33. Have you ever thought about quitting? Why?</dt>
+                        <dd>no not really. its not super serious to me</dd>
+                        <dt>34. Do you have many webmaster friends, or is it a solitary hobby?</dt>
+                        <dd>my friends have websites but im not sure if theyd be considered "webmasters," im more into it than most of them (hi jek hi sorbet)</dd>
+                        <dt>35. Do people in your real life know about your website?</dt>
+                        <dd>my mom monitors all my subscriptions so in some sense yea</dd>
+                        <dt>36. Do you update your website very often? How often is "very often"?</dt>
+                        <dd>overall no, i have update-periods every handful of months or so</dd>
+                        <dt>37. And the overall design, do you change that much? Why or why not?</dt>
+                        <dd>yea i didnt really have an idea of what i wanted for a while</dd>
+                        <dt>38. Is your website more you-focused, hobby-focused, or outside world-focused?</dt>
+                        <dd>me and hobby focused but i also just throw shit on here call it good</dd>
+                        <dt>39. Do you do web design professionally?</dt>
+                        <dd>no</dd>
+                        <dt>40. If not, would you like to? And if you're comfortable answering, what do you do for work?</dt>
+                        <dd>would be cool but probably not! i kinda just float at work; i dont have a specific position. i make promotional product kits a lot tho</dd>
+                        <dt>41. Do you communicate with people by email very much?</dt>
+                        <dd>outside of school not really</dd>
+                        <dt>42. Some people reject social media and use websites as a replacement. Do you keep social media outside of your website?</dt>
+                        <dd>yes! i have accounts on most larger platforms but i dont use a lot of them</dd>
+                        <dt>43. How about instant messengers? Do you use a mainstream one like Discord or Telegram? Or something like Matrix? Do you avoid them?</dt>
+                        <dd>im on discord frequently</dd>
+                        <dt>44. Do you listen to music while you work on websites? If so, what kinds of artists?</dt>
+                        <dd>that or youtube. <a href="https://open.spotify.com/playlist/6hkQivnCcAHJbiKAiuJh2w">this</a> is my main background music playlist, but i like vocaloid/rock+metal+whatever/hyperpop overall</dd>
+                        <dt>45. Do you keep everything you make on one website, or do you have more than one?</dt>
+                        <dd>1 site</dd>
+                        <dt>46. On a similar note, do you keep to one topic on your site, or many?</dt>
+                        <dd>i said this already but i throw whatever on here</dd>
+                        <dt>47. Do you present your real self, or at least try? Or do you construct a persona on purpose?</dt>
+                        <dd>im just me idk</dd>
+                        <dt>48. Have you ever made a good friend thanks to your website?</dt>
+                        <dd>nope!</dd>
+                        <dt>49. Are you happy with the way HTML and CSS currently work?</dt>
+                        <dd>if css was simpler i would be the happiest person ever</dd>
+                        <dt>50. What are practices that you think people should avoid?</dt>
+                        <dd>DONT STRESS YOURSELF OVER THINGS THAT MAKE YOU HAPPY!!!!!!!!!!! you can be casual about things!! dont worry about being the biggest fan of something</dd>
+                        <dt>51. What about under-utilised practices, or things you think people should do more?</dt>
+                        <dd></dd>
+                        <dt>52. Do you use a lot of semantic HTML? Or are you guilty of generic structure?</dt>
+                        <dd>whatever my text editor spits out</dd>
+                        <dt>53. Do you consider different browsers?</dt>
+                        <dd>no eat shit</dd>
+                        <dt>54. Speaking of, what's your preferred browser? Convince your readers why they should use it.</dt>
+                        <dd>firefox (specifically waterfox). other can do whatever i dont care but i encourage people to learn about what companies do with your data</dd>
+                        <dt>55. And what OS are you on?</dt>
+                        <dd>win11</dd>
+                        <dt>56. Do you have a strong opinion on that, or do you just happen to use it?</dt>
+                        <dd>i use it supports most of the shit i need it to. i use ios for my ohone though and thats fine</dd>
+                        <dt>57. Are your websites mobile-friendly?</dt>
+                        <dd>most of it is yea</dd>
+                        <dt>58. What are your thoughts on autoplay?</dt>
+                        <dd>sound effects are fine, music isnt preferable</dd>
+                        <dt>59. What are your thoughts on webrings? Are you in any?</dt>
+                        <dd>im in some! i like em</dd>
+                        <dt>60. Do you have any web shrines? What do you like to see in that sort of page?</dt>
+                        <dd>i have some planned (homestuck and vocaloid) but not at the moment. show me your fanart and graphics. make them overwhelming. i like them because they remind me of ita bags</dd>
+                        <dt>61. Are your websites "cliche", in your opinion?</dt>
+                        <dd>idk bro</dd>
+                        <dt>62. What is your ideal website? Are you striving for that, or for something else?</dt>
+                        <dd>simple + accessible + visually okay. i keep all those things in mind when designing</dd>
+                        <dt>63. Are you an artist? Do you draw or design your own assets?</dt>
+                        <dd>yes! i did all of the character art and both of my sites buttons. anything else i got off tumblr or elsewhere on the indieweb</dd>
+                        <dt>64. What are your favourite resource sites?</dt>
+                        <dd>tumblr, rice.place bookmarks page, </dd>
+                        <dt>65. Is there a habit you just can't get away from no matter how hard you try?</dt>
+                        <dd>idk</dd>
+                        <dt>66. What's your biggest advice for a new webmaster?</dt>
+                        <dd>have fun with it. dont worry about having the best looking site!</dd>
+                        <dt>67. Do you keep all your styling in CSS? Or do you hard-code some?</dt>
+                        <dd>a small amount is hard-coded</dd>
+                        <dt>68. What do you think of frameset layouts?</dt>
+                        <dd>annoying. as one who used to have one</dd>
+                        <dt>69. How about table-based layouts?</dt>
+                        <dd>would need an example but if its what i think it is than sure</dd>
+                        <dt>70. Do you subscribe to the ideas of "one-column", "two-column" and "three-column" layouts? Do you use any of these?</dt>
+                        <dd>sure</dd>
+                        <dt>71. Do you spend longer on the HTML or the CSS?</dt>
+                        <dd>css</dd>
+                        <dt>72. Have you ever made a page with no CSS? It's useful for your thoughts.</dt>
+                        <dd>my qna pages have very little css if that counts</dd>
+                        <dt>73. Do you ever find yourself making layouts with nothing to put on them? Or do you only make layouts when the need arises?</dt>
+                        <dd>the latter</dd>
+                        <dt>74. Would you consider yourself a beginner? Or advanced? Somewhere in the middle?</dt>
+                        <dd>somewhere in the middle! im not super good but i know enough</dd>
+                        <dt>75. Do you have a habit of looking at the source code of websites you visit?</dt>
+                        <dd>only if i wanna see how something works :-3</dd>
+                        <dt>76. How did YOU learn how to make websites?</dt>
+                        <dd>staring at source code and building off of templates</dd>
+                        <dt>77. Do you ever force elements to do things they're not supposed to?</dt>
+                        <dd>idk probably</dd>
+                        <dt>78. Thoughts on floating elements?</dt>
+                        <dd>i use them for some stuff</dd>
+                        <dt>79. When you're sizing stuff, what do you use first? Do you use px, em, %, or something else?</dt>
+                        <dd>max- width/height in px</dd>
+                        <dt>80. Do you have a favourite font?</dt>
+                        <dd>monospace!</dd>
+                        <dt>81. Would you run a website with another person? How would that work?</dt>
+                        <dd>idk</dd>
+                        <dt>82. Do you surf the Web to find new personal websites very often?</dt>
+                        <dd>YES i love websurfing</dd>
+                        <dt>83. Do you bookmark other people's websites? How would you feel knowing someone else bookmarked yours?</dt>
+                        <dd>i dont bookmark them. i memorize them and if i dont remember i kill myself</dd>
+                        <dt>84. What do you want people to be most impressed with when they see your website?</dt>
+                        <dd>my terrible writing</dd>
+                        <dt>85. Are you interested in technology outside of websites? Do you collect?</dt>
+                        <dd>I LOVE CDS I LOVE AUDIO DEVICES I LOVE SPEAKERS</dd>
+                        <dt>86. How often and for how long are you online?</dt>
+                                                <dd>i could be considered "chronically online" often</dd>
+                        <dt>87. When it comes to your website, who is your target audience?</dt>
+                        <dd>me!</dd>
+                        <dt>88. Have you ever been interested in XHTML?</dt>
+                        <dd>no</dd>
+                        <dt>89. Do you program in general? Have you ever written a program for use with or on your website, not counting simple JavaScript?</dt>
+                        <dd>i knew some python... some java... not anymore... :[</dd>
+                        <dt>90. Speaking of programs that help you make websites, what do you think of static site generators (SSGs)? Have you ever used one?</dt>
+                        <dd>i tried using astro and i dont know what im doing. ill come back for it eventually because im definitely interested</dd>
+                        <dt>91. Do you keep a hitcounter? Why or why not?</dt>
+                        <dd>no but i look at the cloudflare stats and nekoweb viewers a lot</dd>
+                        <dt>92. Do you frequent forums? Which ones?</dt>
+                        <dd>no</dd>
+                        <dt>93. Do you write your page content directly into the editor, or do you prepare it elsewhere, like a text document or a Word document?</dt>
+                        <dd>into the editor so fixing it is ez</dd>
+                        <dt>94. Do you think you appear cool to others? A more accurate answer now: do other people ever say you're cool?</dt>
+                        <dd>people say they like my art but me as a person i dont really mind if people think im cool</dd>
+                        <dt>95. Are you embarrassed of your old work? Have you ever deleted everything out of shame?</dt>
+                        <dd>yes all of my old cringe warriors ocs are out of the public eye for good</dd>
+                        <dt>96. Would you close down your website if you couldn't update it, or would you leave an archive?</dt>
+                        <dd>archive</dd>
+                        <dt>97. Do you reveal a lot about yourself on your website? Or are you more secretive?</dt>
+                        <dd>i guess yea?</dd>
+                        <dt>98. Are you willing to reveal who your best online friend is, and/or if they have a website?</dt>
+                        <dd>i have no "best friend" but I LOVE MY FRIENDS!!!!!!!! &lt;tsluts tcod snailparty ecosgang3 hi everyone</dd>
+                        <dt>99. And do you optimise the images on your website?</dt>
+                        <dd>no i dont CARE!!!!</dd>
+                        <dt>100. We're out of time! How do you feel after answering 100 questions? ....other than exhausted.</dt>
+                        <dd>better than the last time. ggs bruh</dd>
+                     </dl>
+                </main>
+            </div>
+        </body>
+    </html>

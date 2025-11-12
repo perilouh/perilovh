@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-    <head><script src="/.nekoweb-api/static/site.js" type="text/javascript" defer></script>
       <title>kittying dot one</title>
       <meta property="og:url" content="https://kittying.one/">
       <link rel="stylesheet" href="https://kittying.one/style.css">
@@ -13,18 +12,61 @@
       <!--webring-->
       <link rel="stylesheet" href="https://ultrakill.nekoweb.org/onionring.css">
       <link rel="icon" type="image/webp" href="/imgs/icons/idog.webp">
+      <style>
+      main{
+  margin-right: 10px;
+  max-width: 600px;
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+}
+</style>
   </head>
       <body>
       <div class="container">
         <main>
-          <a href="/"><h2 class="title"> > kittying.one</h2></a>
-          this is literally just my link-in-bio. find my pages or whatever.
+          <h2 class="title">> kittying.one</h2>
+          <span id="splash" style="background-color: var(--base); color: var(--text); font-weight: 675;"></span>
+          <script>
+function setSplashText() {
+  let splashTexts = [
+    "good luck!",
+    "kys pronoun",
+    "awespoem",
+    "uaopau oauoauoa 'faggot' aouaou",
+    "he blocked me On my way!",
+    "baby do you know what you wanna hear?",
+    "hold each other closer like we're birds of a feather",
+    "i thought, maybe, it would come to this / shot my arrow and it never hit",
+    "who give a garf, its website",
+    "fun fact: i spend 42$ a year on this site",
+    "HHHHHHHHHHHHHHH",
+    "cue the constant companions lemotif",
+    "contrary to aggrandicize jamie paige, i DO only run on love and spite. yeah. how about that one.",
+    "go three letter word yourself",
+    "booger x penguin canon",
+    "ur mom",
+    "im peril",
+    "had i not been so easy on you, thered be time to rectify you!",
+    "burga",
+    "mobile AGGRESSIVE (partial lie)",
+    "im peril?",
+    "BORN TO CODE / INTERNET IS A FUCK / 鬼神 Kill Em All 1989 / I am PISSED OFF / 410,757,864,530 UNFINISHED SITE REWORKS"
+];
+  let splashTextElement = document.querySelector("#splash");
+  let randomIndex = Math.floor(Math.random() * splashTexts.length);
+  let randomText = splashTexts[randomIndex];
+  splashTextElement.innerHTML = randomText;
+}
+addEventListener("DOMContentLoaded", setSplashText);
+</script>
           <br>
-          most of this page should be mobile- and screenreader-friendly, i can't guarentee every page will be. all images have some kind of alt text and the index/links/about pages all should be fine on most devices.
+          <br>
+          kittying.one basically serves as my link in bio thing, i update semi-periodically. collect my pages or whatever. btw this site should be okay on mobile, but i dont prioritize how it looks. if a page looks weird, sorry. ill get around to it eventually
           <br>
           <br>
-          peril's last scrobble was <span id="song"></span>, according to <a href="https://last.fm/user/perilouh">last.fm</a>!!
-          <script type="text/javascript">
+          peril's last scrobble was <span id="song"></span>, according to <a href="https://last.fm/user/perilouh">last.fm</a>! :3
+          <script>
             let user = 'perilouh';
             let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
             let song = document.querySelector('#song');
@@ -34,17 +76,16 @@
                }).then(function (json) {
                    song.innerHTML = json['track']['name'] + ' - ' + json['track']['artist']['#text'];
                 });
-    </script>
+          </script>
           <br>
           <br>
-          visit my friends!
+          visit my friends :D
           <br>
-          <a href="https://jeksnek.net/"><img src="/imgs/buttons/jekk.webp" alt="purple button with black text reading 'jek'. theres a colon three in the corner" title="the voices are downloading (hi jek)"></a> <a href="https://chinatown.nekoweb.org/"><img src="/imgs/buttons/chinatown.gif/" alt="a dark-red button with flashing text reading 'chinatown nekoweb'.  hǎi yàn is on the left!" title="hi sorbet!!!"></a> <img src="/imgs/buttons/button2.png/" style="height: 31px; width: 88px;" alt="a white button with gradient red-to-blue text reading 'kittying.one'. theres a colon three in the top left." title="feel free to add my button anywhere!!">
+          <a href="https://jeksnek.net/"><img src="/imgs/buttons/jekk.webp" alt="purple button with black text reading 'jek'. theres a colon three in the corner" title="the voices are downloading (hi jek)"></a> <a href="https://chinatown.nekoweb.org/"><img src="/imgs/buttons/chinatown.gif/" alt="a dark-red button with flashing text reading 'chinatown nekoweb'.  hǎi yàn is on the left!" title="hi sorbet!!!"></a> <a href="https://selinbliss.nekoweb.org/"><img src="imgs/buttons/selin.png" alt="screaming cat with pink text reading 'SELIN!!!!!!!'" title="hi sel!!"></a> <img src="/imgs/buttons/button2.png/" style="height: 31px; width: 88px;" alt="a white button with gradient red-to-blue text reading 'kittying.one'. theres a colon three in the top left." title="if you link my site, drop me a note in my guestbook so i can add you back. or if youre a friend scream in my dms about it, idk">
           <br>
           <br>
           <a href="/about.html">about</a> | <a href="/contact.html">links</a> | <s><a href="/blog.html">blog directory</a></s> | <a href="https://kittying.atabook.org/">guestbook</a>  
-          <hr>
-          <h2 class="title">> elsewhere</h2>
+         <h2 class="title">> elsewhere</h2>
           <div class="webrings">
             <div id='skibiring'> <script type="text/javascript" src="https://ultrakill.nekoweb.org/onionring-variables.js"></script> <script type="text/javascript" src="https://ultrakill.nekoweb.org/onionring-widget.js"></script></div>
             <div style="text-align:center">
@@ -55,11 +96,13 @@
             </div> 
             <br>
             <iframe id="bolognese-webring" style="width: 100%; height: 3rem; border: none;" src="https://spagwhetti.github.io/embed.html?name=per"></iframe> 
+            <br>
+            <script defer src="https://pylon.nehulus-vagus.com/webring.js"></script>
          </div>
          <br>
          <iframe src="https://john.citrons.xyz/embed?ref=https://kittying.one/" style="margin-left:auto;display:block;margin-right:auto;max-width:500px;width:100%;height:94px;border:none;"></iframe>
          <hr>
-         <marquee style="max-width: 500px;">perilovh 2023-2025 ♡ ran on love and spite ♡ no copyfucks given</marquee>
+         <marquee style="max-width: 600px;">kittying.one 2023-2025 ♡ ran on love and spite ♡ no copyfucks given</marquee>
         </main>
       </div>
 </html>

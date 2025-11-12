@@ -1,10 +1,4 @@
-/* hiya, shits ordered like this:
-* main containers
-* text shit (font&title stuff)
-* mobile accessible tings
-* root
-* anything else
-thanks for taking a look :3 peace and love bitches!!!!! */
+/* this is ordered weird i need to fix it please just ignore*/
 
 /*containers*/
 body{
@@ -26,6 +20,7 @@ main{
   float: left;
   margin-right: 10px;
   max-width: 500px;
+  max-height: 600px;
   height: 100%;
   overflow: auto;
   padding: 10px;
@@ -36,16 +31,23 @@ main{
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 a:hover{
   background-color: var(--one);
-  color: var(--base);
+  color: var(--two);
   text-decoration: none;
 }
-a{color: var(--text); text-decoration: none;}
+a{
+  color: var(--two); 
+  text-decoration: none;
+}
 .title{
   background-color: var(--text);
   color: var(--base);
   width: 100%;
 }
 
+hr {
+  color: var(--text);
+  height: 1px;
+}
 /*** Works on common browsers ***/
 ::selection {
   background-color: var(--text);
@@ -82,18 +84,18 @@ a{color: var(--text); text-decoration: none;}
 
 /* root */
 li::marker {
-  content: ">";
+  content: "* ";
   font-size: 1.1em;
 }
 :root{
-  --base: #100E15; 
-  --text: #D8E2F8;
-  --one: #00FF00;
-  --two: #8400ff;
+  --base: #09090a; 
+  --text: #ecf1fc;
+  --one: #372bb0;
+  --two: #b52f38;
 }
-.teto{
-  height: 300px;
-  position: absolute;
+span{
+  color: var(--base);
+  background-color: var(--two);
 }
 .webrings{
   align-items: left;
